@@ -1,127 +1,67 @@
-# Modelo de entrega — Projeto Interdisciplinar
+# Ficha resumida e roteiro da apresentação
 
 [Voltar ao enunciado](../README.md)
 
-Copie este modelo para o repositório da equipe e preencha os campos. Ele organiza as evidências; não cria requisitos adicionais ao enunciado. Caso o código esteja dividido em vários repositórios, mantenha um documento de entrega que conecte todos eles.
+A entrega será uma **apresentação formal, presencial, perante banca avaliadora**, em **28/11/2026**. Cada equipe terá **até 30 minutos no total para o pitch e a demonstração da aplicação**.
 
-## 1. Identificação
+Além da apresentação, a equipe deve entregar à banca o **link do repositório com o código-fonte do projeto**. Se houver vários repositórios, entregue todos os links necessários para acessar a solução.
 
-- **Nome do projeto:** preencher.
-- **Problema e público atendido:** preencher.
-- **Versão final — tag ou commit:** preencher.
-- **Data de entrega:** preencher. Prazo final: 28/11/2026.
+Preencha esta ficha de forma objetiva e disponibilize seus links à banca. Ela apoia a apresentação; não é um relatório técnico extenso. A documentação de execução, API e mensageria pode permanecer no README dos repositórios do projeto.
 
-| Integrante — até cinco | Usuário GitHub ou referência de contribuição | Responsabilidades |
-|---|---|---|
-| Preencher | Preencher | Preencher |
+## 1. Equipe e produto
 
-Não inclua CPF, documentos pessoais, endereço ou outros dados desnecessários à avaliação.
+- **Nome do produto:** preencher.
+- **Projeto web de origem — quarto semestre:** link.
+- **Versão final apresentada — tag ou commit:** preencher.
 
-## 2. Origem e evolução
+| Integrante — até cinco | Principal contribuição |
+|---|---|
+| Preencher | Preencher |
 
-- **Projeto web do quarto semestre:** link.
-- **Versão de origem:** commit ou tag.
-- **O que existia antes:** descrever.
-- **O que foi reaproveitado:** descrever.
-- **O que foi alterado ou acrescentado:** descrever.
-- **Limites do MVP entregue:** descrever.
+## 2. Pitch do produto
 
-## 3. Componentes e tecnologias
+Use os pontos abaixo para organizar sua fala e, se desejar, os slides:
 
-| Componente | Tecnologia | Repositório/caminho | Como executar/acessar |
-|---|---|---|---|
-| Aplicação web | Preencher | Link/caminho | Comando e endereço |
-| Aplicativo Flutter | Flutter; destino móvel escolhido | Link/caminho | Comando/dispositivo de demonstração |
-| API/backend | Preencher | Link/caminho | Comando e endereço |
-| Backoffice | Web ou desktop; tecnologia | Link/caminho | Comando e endereço |
-| Broker | Preencher | Configuração | Comando/endereço |
-| Consumidor | Preencher | Link/caminho | Comando |
-| Persistência | Preencher | Configuração | Comando |
+- **Problema e público-alvo:** qual necessidade o produto atende e para quem?
+- **Solução e valor:** o que o produto oferece e por que é útil?
+- **Evolução:** o que foi reaproveitado do quarto semestre e o que foi acrescentado?
+- **Escopo do MVP:** o que está funcionando na versão apresentada?
 
-Um mesmo projeto pode cumprir mais de uma responsabilidade. Identifique isso sem criar componentes artificiais.
+## 3. Roteiro da demonstração
 
-## 4. Jornada integrada
+Defina uma jornada que permita à banca observar os requisitos no produto funcionando.
 
-Descreva um fluxo completo, indicando:
+| O que demonstrar | Ação e resultado esperado |
+|---|---|
+| Aplicação web e sua evolução | Preencher |
+| Aplicativo Flutter em dispositivo ou emulador/simulador móvel | Preencher |
+| API e dados compartilhados entre as interfaces | Preencher |
+| Backoffice web ou desktop | Preencher |
+| Publicação, consumo real do broker e efeito na aplicação | Preencher |
+| Um cenário de erro ou indisponibilidade | Preencher |
 
-1. Ação do usuário ou administrador.
-2. Chamada à API e validações relevantes.
-3. Informação persistida.
-4. Mensagem publicada e seu destino.
-5. Consumidor responsável e efeito produzido.
-6. Forma de observar o resultado no backoffice e/ou aplicativo.
-7. Comportamento em caso de falha.
+O consumidor do broker pode executar em um serviço backend, com os resultados acessados pela API. Mostre quem publica, quem consome e como o processamento pode ser observado.
 
-Acrescente um diagrama de componentes ou sequência, em Mermaid, imagem ou representação textual legível.
+## 4. Links para a banca
 
-## 5. Contrato da API
+- **Link obrigatório do repositório com o código-fonte:** preencher com o link. Se houver vários repositórios, listar todos os necessários.
+- **Instruções de execução:** indicar o README ou seção do repositório.
+- **Apresentação/slides, se utilizados:** link.
+- **Documentação da API e do fluxo de mensageria:** link(s) ou seção do README.
 
-Informe o link da documentação ou descreva aqui as operações utilizadas pelo MVP.
+Um monorepo é aceito; nesse caso, indique os caminhos de cada componente.
 
-| Operação | Entrada | Resultado esperado | Erros relevantes |
-|---|---|---|---|
-| Preencher | Preencher | Preencher | Preencher |
+## 5. Fechamento e preparação
 
-Explique como os clientes acessam a API e como o acesso administrativo é controlado. Não versione credenciais reais.
+- **Principais resultados do MVP:** preencher brevemente.
+- **Limitações e próximos passos:** preencher brevemente.
 
-## 6. Contrato de mensageria
+Antes da apresentação:
 
-- **Finalidade da funcionalidade assíncrona:** preencher.
-- **Broker:** preencher.
-- **Produtor:** preencher.
-- **Fila/tópico/canal e regra de roteamento:** preencher conforme a tecnologia.
-- **Consumidor:** preencher.
-- **Relação com o backoffice:** preencher.
-- **Exemplo de payload:** inserir mensagem fictícia do domínio.
-- **Identificador para acompanhar a operação:** preencher.
-- **Quando o processamento é considerado concluído:** preencher.
-- **O que ocorre com o consumidor indisponível:** preencher.
-- **Tratamento de falhas e possibilidade de duplicação:** preencher.
-- **Como acompanhar ou recuperar o processamento:** preencher.
+- [ ] Preparar ambiente, acessos e dados fictícios de demonstração.
+- [ ] Entregar o link do repositório à banca e conferir se o código pode ser acessado por ela.
+- [ ] Identificar a versão do código apresentada por tag ou commit.
+- [ ] Ensaiar o pitch e a demonstração dentro dos **30 minutos totais**.
+- [ ] Garantir que cada integrante saiba explicar sua contribuição.
 
-Declare as garantias efetivamente implementadas. Se não há retry, DLQ ou deduplicação, descreva a limitação sem apresentá-los como disponíveis.
-
-## 7. Reprodução do ambiente
-
-- Pré-requisitos e versões.
-- Arquivo de exemplo das variáveis de ambiente, sem segredos reais.
-- Preparação da persistência e dados iniciais.
-- Comandos e ordem de inicialização de API, broker, consumidor e interfaces.
-- Procedimento para acesso de demonstração, usando dados fictícios.
-- Comandos para executar os testes ou verificações.
-
-O avaliador deve conseguir seguir as instruções sem depender de configurações não documentadas na máquina da equipe.
-
-## 8. Evidências de atendimento
-
-| Requisito | Onde está implementado | Como demonstrar | Evidência |
-|---|---|---|---|
-| R01 — Evolução do projeto web | Preencher | Preencher | Link/captura/descrição |
-| R02 — Aplicativo Flutter móvel | Preencher | Preencher | Link/captura/descrição |
-| R03 — API funcional | Preencher | Preencher | Link/captura/descrição |
-| R04 — Broker com consumo real | Preencher | Preencher | Log/mensagem/resultado |
-| R05 — Backoffice integrado | Preencher | Preencher | Link/captura/descrição |
-
-## 9. Verificações e resultados
-
-| Cenário | Passos/comando | Resultado esperado | Resultado observado |
-|---|---|---|---|
-| Jornada principal | Preencher | Preencher | Preencher |
-| Entrada inválida | Preencher | Preencher | Preencher |
-| Falha na integração assíncrona | Preencher | Preencher | Preencher |
-
-Informe quais verificações são automatizadas e quais foram executadas manualmente. Caso a equipe declare TDD, referencie a evidência do ciclo adotado.
-
-## 10. Contribuições e portfólio
-
-| Integrante | Contribuição | Evidência contextualizada |
-|---|---|---|
-| Preencher | Código, testes, revisão, documentação, design ou gestão | Commits, PRs, issues ou outros registros |
-
-- **Organização das tarefas:** link do quadro/backlog ou descrição equivalente.
-- **Registro no portfólio acadêmico:** link ou indicação de onde o resultado será incorporado.
-- **Aprendizados e decisões relevantes:** preencher.
-
-## 11. Limitações e próximos passos
-
-Liste o que não foi implementado, os problemas conhecidos e as melhorias futuras. Diferencie claramente o que está funcionando do que permanece planejado.
+Sugestão de organização: **5 minutos de pitch, 20 de demonstração e 5 de fechamento**. A distribuição pode ser adaptada pela equipe, respeitando o limite total. Local, horário, ordem das equipes e dinâmica das perguntas serão informados pelo docente.

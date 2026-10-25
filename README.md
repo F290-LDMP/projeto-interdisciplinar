@@ -6,7 +6,8 @@ Orientações para a entrega final da disciplina **Laboratório de Desenvolvimen
 |---|---|
 | Organização da disciplina | [F290-LDMP](https://github.com/F290-LDMP) |
 | Equipes | Até **5 integrantes** |
-| Entrega final | **28 de novembro de 2026** — horário e canal de submissão a serem informados pelo docente |
+| Entrega final | **28 de novembro de 2026**, em apresentação formal e presencial perante banca avaliadora |
+| Formato e duração | **Pitch do produto e demonstração da aplicação, em até 30 minutos por equipe** |
 | Ponto de partida | Projeto web desenvolvido no **quarto semestre** |
 | Plataformas obrigatórias | Aplicação **web** e aplicativo **móvel em Flutter** |
 | Administração | MVP de **backoffice web ou desktop**, com tecnologia livre |
@@ -164,35 +165,35 @@ Para tornar a solução avaliável e reproduzível, a equipe deve:
 
 Não são exigidos provedor de nuvem pago, publicação em loja ou ferramentas comerciais. Execução local é aceita, desde que possa ser reproduzida a partir das instruções fornecidas.
 
-## 6. Entregáveis
+## 6. Formato da entrega e material de apoio
 
-Até **28/11/2026**, a equipe deve disponibilizar:
+A entrega final será realizada em **28/11/2026**, por meio de uma **apresentação formal, presencial, perante banca avaliadora**. Cada equipe terá **até 30 minutos, no total, para apresentar o pitch do produto e demonstrar a aplicação**.
 
-1. **Código-fonte:** links dos repositórios do site, aplicativo, backend e backoffice, ou os caminhos correspondentes em um monorepo. Identificar a versão final avaliada por tag ou commit.
-2. **Documento de entrega em Markdown:** integrantes, projeto de origem, problema, escopo do MVP, tecnologias, requisitos atendidos e limitações.
-3. **Guia de execução:** pré-requisitos, configuração de ambiente, inicialização da API, persistência, broker, consumidor e interfaces; dados iniciais e acesso de demonstração, quando necessários.
-4. **Arquitetura e contratos:** diagrama dos componentes, documentação da API, mensagem de exemplo e descrição do fluxo assíncrono.
-5. **Evidências:** demonstração da jornada integrada e dos testes/verificações, com resultados observáveis. Capturas, logs e gravação podem complementar a demonstração; não substituem a entrega funcional.
-6. **Contribuições e portfólio:** descrição objetiva da participação de cada integrante, com referências ao trabalho, e indicação de como o resultado será incorporado ao portfólio acadêmico.
+O material de apoio será composto por:
 
-Utilize o [modelo de entrega](docs/MODELO-DE-ENTREGA.md). Ele pode ser copiado para o repositório da equipe, sem necessidade de migrar o código para este repositório de orientações.
+1. **Apresentação do produto:** pitch com problema, público-alvo, solução proposta e evolução do projeto do quarto semestre. Slides podem apoiar a exposição.
+2. **Aplicação em funcionamento:** demonstração da jornada integrada, evidenciando web, Flutter móvel, API, backoffice e consumo real do broker.
+3. **Ficha resumida da equipe:** identificação, contribuições, síntese do produto, roteiro da demonstração e links do código, conforme o [modelo simplificado](docs/MODELO-DE-ENTREGA.md).
+4. **Link obrigatório do repositório:** a equipe deve entregar à banca o link do repositório com o código-fonte do projeto. Se a solução estiver dividida em vários repositórios, deve entregar todos os links necessários. Identificar a versão final por tag ou commit e manter um README com instruções de execução, arquitetura e referências da API e mensageria. Essas informações podem permanecer nos repositórios do projeto, sem duplicação em um relatório de entrega.
 
-O docente informará o canal e o horário-limite da submissão, além da organização das apresentações. Não há horário de corte presumido neste documento.
+A ficha é um apoio à banca; não é necessário preencher um relatório extenso seguindo o modelo anterior. As evidências dos requisitos serão apresentadas principalmente durante a demonstração, com o código e a documentação técnica disponíveis para consulta.
 
-## 7. Apresentação final
+O docente informará local, horário, ordem das equipes e procedimento para disponibilizar os links e materiais de apoio. Capturas, logs e gravações podem apoiar a apresentação, mas não substituem a demonstração funcional e presencial.
 
-Sugestão de apresentação de **10 a 15 minutos por equipe**, sujeita à organização da turma pelo docente:
+## 7. Roteiro da apresentação perante a banca
 
-| Momento | Evidência esperada |
-|---|---|
-| Contexto | Problema atendido e evolução do projeto do quarto semestre |
-| Visão da solução | Plataformas, API, persistência, broker e consumidor |
-| Demonstração | Jornada completa, incluindo operação administrativa e aplicativo Flutter |
-| Mensageria | Mensagem publicada, consumo e efeito observável |
-| Verificação | Um cenário de erro ou indisponibilidade e a explicação do comportamento |
-| Fechamento | Limitações do MVP e participação dos integrantes |
+A equipe deve organizar sua exposição dentro do limite total de **30 minutos**. A divisão abaixo é uma sugestão de preparação, não uma exigência de duração por etapa:
 
-Todos os integrantes devem estar preparados para explicar suas contribuições e como elas se conectam à solução. A contagem de commits, isoladamente, não mede contribuição.
+| Momento | Tempo sugerido | Conteúdo esperado |
+|---|---:|---|
+| Pitch do produto | 5 minutos | Problema, público-alvo, proposta de valor e evolução do projeto web do quarto semestre |
+| Demonstração da aplicação | 20 minutos | Jornada integrada com web, aplicativo Flutter, API e backoffice; publicação, consumo e efeito do broker; um cenário de erro ou indisponibilidade |
+| Fechamento | 5 minutos | Resultados do MVP, limitações, próximos passos e síntese das contribuições da equipe |
+| **Total máximo** | **30 minutos** | **Pitch e demonstração em apresentação formal e presencial** |
+
+A demonstração deve mostrar o produto funcionando, e não apenas telas em slides. O consumo do broker e seu efeito devem ser identificáveis na jornada apresentada. A equipe deve preparar previamente o ambiente, os dados e os acessos de demonstração.
+
+Todos os integrantes devem estar preparados para explicar suas contribuições e como elas se conectam à solução. A contagem de commits, isoladamente, não mede contribuição. A dinâmica das perguntas da banca será informada pelo docente; este enunciado não presume um tempo adicional de arguição.
 
 ## 8. Acompanhamento sugerido até a entrega
 
@@ -203,7 +204,7 @@ Os marcos abaixo são **orientações de organização**, não novos prazos de s
 | Definição do MVP | Equipe, projeto de origem, jornada e arquitetura delimitados |
 | Primeira integração | API e Flutter trocando dados reais; operação administrativa disponível |
 | Fluxo assíncrono | Publicação, consumo e efeito de negócio conectados à jornada |
-| Preparação da entrega | Verificações, documentação, roteiro e versão final identificada |
+| Preparação da entrega | Ambiente verificado, ficha resumida, versão final identificada e ensaio do pitch e da demonstração |
 
 ## 9. Avaliação
 
@@ -225,7 +226,10 @@ Funcionalidades opcionais não compensam a ausência dos requisitos obrigatório
 - [ ] Guia de execução, configuração de exemplo e dados de demonstração disponíveis.
 - [ ] Verificações e limitações do MVP registradas.
 - [ ] Versão final do código identificada e contribuições dos integrantes descritas.
-- [ ] Entrega preparada para 28 de novembro de 2026.
+- [ ] Link obrigatório do repositório entregue à banca; se houver vários repositórios, todos os links necessários incluídos.
+- [ ] Ficha resumida disponível para a banca.
+- [ ] Pitch e demonstração ensaiados dentro do limite total de 30 minutos.
+- [ ] Entrega presencial preparada para 28 de novembro de 2026.
 
 ## 11. Referências e materiais de apoio
 

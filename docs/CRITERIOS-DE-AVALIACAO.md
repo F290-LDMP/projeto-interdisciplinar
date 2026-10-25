@@ -17,6 +17,8 @@ Os requisitos obrigatórios, a equipe de até cinco integrantes e o prazo de 28/
 | E. Participação individual e apresentação | Individual | 15 |
 | **Total** | **85 pontos da equipe + 15 individuais** | **100** |
 
+A avaliação ocorrerá em **apresentação formal e presencial perante banca**, com **até 30 minutos por equipe para pitch e demonstração**. A ficha resumida organiza a identificação e os links; os requisitos técnicos serão evidenciados na demonstração e nos repositórios de apoio. Não é exigido um relatório extenso no formato do modelo anterior.
+
 Uma mesma evidência pode ajudar a compreender vários critérios, mas cada um avalia uma dimensão distinta: A observa a jornada entre interfaces; B, o backend; C, a integração assíncrona; D, a verificabilidade e manutenção; E, a contribuição e a compreensão de cada integrante.
 
 ## 2. Evidências por critério
@@ -74,7 +76,7 @@ Testes automatizados são recomendados. Quando a equipe declarar uso de TDD, dev
 |---|---:|---|
 | Compreensão técnica | 6 | Explica a parte em que atuou, suas decisões e a integração com o restante da solução |
 | Contribuição verificável | 6 | Referências a código, testes, documentação, design, revisão ou organização do trabalho |
-| Comunicação e colaboração | 3 | Apresenta resultados com clareza e descreve o trabalho conjunto de forma coerente |
+| Comunicação e colaboração | 3 | Comunica o produto com clareza no pitch e na demonstração perante a banca, organiza a exposição no tempo disponível e descreve o trabalho conjunto |
 | **Subtotal** | **15** | |
 
 A contribuição não deve ser medida apenas pela quantidade de commits. Issues, revisões, programação em pares, testes, documentação e outras evidências contextualizadas podem demonstrar participação. Avaliação em pares pode complementar a análise, com mediação do docente; não deve gerar penalidade automática por votação.
