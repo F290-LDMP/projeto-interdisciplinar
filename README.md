@@ -6,7 +6,7 @@ Orientações para a entrega final da disciplina **Laboratório de Desenvolvimen
 |---|---|
 | Organização da disciplina | [F290-LDMP](https://github.com/F290-LDMP) |
 | Equipes | Até **5 integrantes** |
-| Entrega final | **28 de novembro de 2026**, em apresentação formal e presencial perante banca avaliadora |
+| Entrega final | **30 de novembro de 2026**, em apresentação formal e presencial perante banca avaliadora |
 | Formato e duração | **Pitch do produto e demonstração da aplicação, em até 30 minutos por equipe** |
 | Ponto de partida | Projeto web desenvolvido no **quarto semestre** |
 | Plataformas obrigatórias | Aplicação **web** e aplicativo **móvel em Flutter** |
