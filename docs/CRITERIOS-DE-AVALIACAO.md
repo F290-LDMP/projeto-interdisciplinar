@@ -4,7 +4,7 @@
 
 **Status: proposta docente para ratificação.** Os pesos abaixo são uma sugestão para esta atividade. Não são prescrições do CESU. O docente deve confirmar a rubrica com a turma antes de aplicá-la.
 
-Os requisitos obrigatórios, a equipe de até cinco integrantes e o prazo de 28/11/2026 constam no [enunciado](../README.md). Esta rubrica não acrescenta regras de aprovação, penalidades por atraso, nota mínima ou obrigatoriedade de ferramentas específicas.
+Os requisitos obrigatórios, a equipe de até cinco integrantes e o prazo de 30/11/2026 constam no [enunciado](../README.md). Esta rubrica não acrescenta regras de aprovação, penalidades por atraso, nota mínima ou obrigatoriedade de ferramentas específicas.
 
 ## 1. Distribuição sugerida — 100 pontos
 
